@@ -15,7 +15,7 @@ public class Task1 {
                     max_negative = arr[i];
                     negative = i;
                 }
-                if ((arr[i] >= 0) && (min_positive > arr[i])) {
+                if ((arr[i] > 0) && (min_positive > arr[i])) {
                     min_positive = arr[i];
                     positive = i;
                 }
